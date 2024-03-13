@@ -1,0 +1,22 @@
+:root{
+    --primary:#fff;
+    /* --accent1:#7fffd4;
+    --accent2:#40e0d0; */
+    --secondary:#000;   
+}
+
+input{
+    /* border: 1px solid black !important; */
+}
+input:focus{
+    border: 1px solid black !important;
+    box-shadow: unset !important;
+}
+
+textarea:focus{
+    border: 1px solid black !important;
+    box-shadow: unset !important;
+}
+button:focus{
+    box-shadow: unset  !important;
+}
